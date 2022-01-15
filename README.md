@@ -42,7 +42,7 @@ Desktop View
 <img src="https://raw.githubusercontent.com/eggwaffle/Edie-Homepage/main/mobilescreenshot.png" width=50% height=50%>
 Mobile View
 
-Challenge: Create a recipe page following the design. The page should be responsive.
+Challenge: Create a static page with HTML and CSS following the designs.
 
 - Demo: https://responsive-web-dev-challenges.web.app/ediehomepage/
 
