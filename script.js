@@ -4,16 +4,11 @@ const close = document.getElementById("close");
 const items = menu.getElementsByTagName("li");
 
 function togglemenu() {
-  menu.classList.toggle('hidden');
-
-  if (open.innerText === 'menu') {
+  if (open.innerText === 'menu' && window.screen.width< 768) {
     open.innerHTML = '<span class="material-icons">close</span>';
-    /*
-    for (let item of items) {
-      item.classList.add('block');
-    }
-    */
-  } else {
+    menu.classList.toggle('hidden');
+  } else if (open.innerText === 'close' && window.screen.width< 768) {
     open.innerHTML = '<span class="material-icons">menu</span>';
+    menu.classList.toggle('hidden');
   };
 }

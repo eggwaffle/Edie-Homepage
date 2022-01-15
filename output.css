@@ -1002,6 +1002,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
   .md\:ml-12 {
     margin-left: 3rem;
   }
@@ -1052,6 +1056,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:bg-none {
+    background-image: none;
   }
 
   .md\:p-0 {
