@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+    <meta name="theme-color" content="#FF0A0A" />
+
+    <link href="output.css" rel="stylesheet" />
+
+    <link rel="icon" href="devchallenges.png" crossorigin/>
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com"
+      rel="preconnect"
+    />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+
+  </head>
+  <body class="font-Poppins">
+    <header class="m-0 p-4 pb-0 lg:p-12 lg:pb-0 flex justify-between">
+      <h1 class="text-2xl xl:text-4xl font-extrabold xl:leading-[3.5rem] font-Heebo text-gray-1">
+        Edie
+      </h1>
+      <nav class="text-right">
+        <button id="open" onclick="togglemenu()" class="md:hidden">
+          <span class="material-icons">
+            menu
+          </span>
+        </button>
+        <ul id="menu" class="hidden z-50 md:flex md:justify-between xl:text-2xl font-medium xl:leading-[2.2rem] text-gray-1">
+          <li class="text-right md:ml-12">
+            <a href="#">Home</a>
+          </li>
+          <li class="md:ml-12">
+            <a href="#services">Services</a>
+          </li>
+          <li class="md:ml-12">
+            <a href="#works">Our Works</a>
+          </li>
+          <li class="md:ml-12">
+            <a href="#clients">Clients</a>
+          </li>
+          <li class="md:ml-12">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="mx-auto mt-12 mb-24 object-cover">
+      <div class="w-4/5 lg:w-3/5 mx-auto">
+        <p class="mb-4 font-medium text-blue-main text-xs xl:text-lg">
+          Unhappy with your website?
+        </p>
+        <h1 class="lg:w-[65%] font-medium xl:leading-[3.5rem] text-gray-1 text-2xl xl:text-5xl">
+          We create beautiful and fast web services
+        </h1>
+      </div>
+      <img class="max-w-[90%] mx-auto my-10 rounded-xl" src="heroImage.jpg" alt="heroImage" />
+      <div class="w-4/5 xl:w-3/5 mx-auto">
+        <div class="md:w-[50%]">
+          <h1 class="font-medium xl:leading-[3.5rem] text-gray-1 text-2xl xl:text-5xl">
+            Story, emotion and purpose
+          </h1>
+          <p class="my-10 leading-[1.1rem] xl:leading-[1.7rem] text-gray-2 text-xs xl:text-lg">
+            We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+          </p>
+          <p class="text-gray-3 text-xs xl:text-lg">
+            Want us to contact you?
+          </p>
+          <div class="bg-gray-6 rounded-xl flex justify-between items-center">
+            <p class="ml-4 text-gray-4 text-xs xl:text-lg">Email</p>
+            <button class="px-5 lg:px-7 py-3 rounded-xl bg-blue-main text-gray-6 text-xs xl:text-lg">
+              Join
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services"  class="w-[80%] mx-auto my-24">
+      <h1 class="md:w-[30%] mb-12 font-medium xl:leading-[3.5rem] text-gray-1 text-2xl xl:text-4xl">
+        We offer high demand services
+      </h1>
+      <div class="flex flex-wrap justify-between items-stretch">
+        <div class="md:w-[30%] p-4 rounded-3xl hover:shadow-card">
+          <span class="material-icons my-4 p-5 rounded-2xl bg-blue-main text-white">
+            create
+          </span>
+          <h1 class="my-4 font-bold text-gray-1 text-2xl">
+            UI/UX Design
+          </h1>
+          <p class="my-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button class="my-4 px-5 lg:px-7 py-3 rounded-xl bg-gray-button hover:bg-blue-main text-gray-3 hover:text-white text-xs xl:text-lg">
+            Get started
+          </button>
+        </div>
+        <div class="md:w-[30%] p-4 rounded-3xl hover:shadow-card">
+          <span class="material-icons my-4 p-5 rounded-2xl bg-green-main text-white">
+            code
+          </span>
+          <h1 class="my-4 font-bold text-gray-1 text-2xl">
+            Front End
+          </h1>
+          <p class="my-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button class="my-4 px-5 lg:px-7 py-3 rounded-xl bg-gray-button hover:bg-blue-main text-gray-3 hover:text-white text-xs xl:text-lg">
+            Get started
+          </button>
+        </div>
+        <div class="md:w-[30%] p-4 rounded-3xl hover:shadow-card">
+          <span class="material-icons my-4 p-5 rounded-2xl bg-red-main text-white">
+            storage
+          </span>
+          <h1 class="my-4 font-bold text-gray-1 text-2xl">
+            Back End
+          </h1>
+          <p class="my-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+          </p>
+          <button class="my-4 px-5 lg:px-7 py-3 rounded-xl bg-gray-button hover:bg-blue-main text-gray-3 hover:text-white text-xs xl:text-lg">
+            Get started
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="works"  class="w-[80%] mx-auto my-24">
+      <h1 class="md:w-[35%] font-medium xl:leading-[3.5rem] text-gray-1 text-2xl xl:text-4xl">
+        Good design means good business
+      </h1>
+      <div class="flex flex-wrap justify-between">
+        <div class="my-10 md:w-[49%] md:mt-40 md:mb-0">
+          <img class="rounded-xl w-full" src="smarthome.jpg" alt="smarthome" />
+          <p class="mt-5 lg:mt-2 text-gray-3 text-xs xl:text-lg">Full stack application</p>
+          <h2 class="font-medium text-gray-1 text-2xl">Smart home dashboard</h2>
+        </div>
+        <div class="my-10 md:w-[49%] md:mb-0">
+          <img class="rounded-xl w-full" src="onboard.png" alt="onboard" />
+          <p class="mt-5 lg:mt-2 text-gray-3 text-xs xl:text-lg">UX/UI design</p>
+          <h2 class="font-medium text-gray-1 text-2xl">Onboard application</h2>
+        </div>
+        <div class="my-10 md:w-[49%] md:mt-40 md:mb-0">
+          <img class="rounded-xl w-full" src="booking.png" alt="booking" />
+          <p class="mt-5 lg:mt-2 text-gray-3 text-xs xl:text-lg">Mobile application</p>
+          <h2 class="font-medium text-gray-1 text-2xl">Booking system</h2>
+        </div>
+        <div class="my-10 md:w-[49%] md:mb-0">
+          <img class="rounded-xl w-full" src="juice-product.png" alt="juice-product" />
+          <p class="mt-5 lg:mt-2 text-gray-3 text-xs xl:text-lg">Front End application</p>
+          <h2 class="font-medium text-gray-1 text-2xl">Juice product homepage</h2>
+        </div>
+      </div>
+      <div class="flex justify-end align-middle">
+        <p class="mr-2 text-blue-main text-2xl">
+          see more
+        </p>
+        <span class="pt-1 material-icons text-blue-main">
+          arrow_right_alt
+        </span>
+      </div>
+    </section>
+    <section id="clients" class="w-[80%] mx-auto my-24 flex flex-wrap items-center justify-between">
+      <div class="md:w-[30%]">
+        <p class="text-red-main font-medium text-lg">
+          Meet the team
+          span
+        </p>
+        <h1 class="w-[70%] text-gray-1 font-medium xl:leading-[3.5rem] text-4xl">
+          We are chilled and a laidback team
+        </h1>
+        <p class="w-[70%] text-gray-2 text-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="md:w-[50%] grid auto-cols-fr gap-5">
+        <div class="row-start-1 row-span-2 col-start-3 col-span-2 pt-10 pr-10">
+          <img class="rounded-xl w-fit" src="person1.png" alt="person1">
+        </div>
+        <img class="row-start-3 row-span-2 col-start-3 col-span-2 rounded-xl w-fit" src="person2.png" alt="person2">
+        <img class="row-start-2 row-span-2 col-start-1 col-span-2 rounded-xl w-fit" src="person3.png" alt="person3">
+      </div>
+    </section>
+    <section class="w-[80%] mx-auto my-24">
+      <h1 class="w-[70%] text-gray-1 font-medium xl:leading-[3.5rem] text-2xl xl:text-4xl">
+        “Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”
+      </h1>
+      <div class="mt-10 flex">
+        <img class="rounded-xl h-16" src="person4.png" alt="Carlos Tran" />
+        <div class="ml-5 flex flex-col justify-center">
+          <h2 class="text-gray-1 font-medium text-2xl">
+            Carlos Tran
+          </h2>
+          <p class="text-gray-3 text-lg">
+            The Decorate Gatsby
+          </p>
+        </div>
+      </div>
+    </section>
+    <Footer id="contact"  class="m-0 px-10 pt-4 lg:px-16 lg:pt-12 bg-[#100E1D]">
+      <div class="mb-10 md:mb-8 grid grid-row-3 md:grid-cols-3 gap-20 md:justify-around">
+        <div>
+          <ul class="text-white">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#works">Our Works</a>
+            </li>
+            <li>
+              <a href="#clients">Clients</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h1 class="text-2xl xl:text-4xl font-extrabold xl:leading-[3.5rem] font-Heebo text-gray-6">
+            Edie
+          </h1>
+          <div class="w-[20%] md:w-[50%] xl:w-[25%] flex align-middle">
+            <img src="instagram.svg" alt="instagram">
+            <img class="mx-5" src="linkedin.svg" alt="linkedin">
+            <img src="twitter.svg" alt="twitter">
+          </div>
+        </div>
+        <div>
+          <p class="text-gray-3 text-xs lg:text-sm">
+            Want us to contact you?
+          </p>
+          <div class="lg:w-[70%] bg-gray-6 rounded-xl flex justify-between items-center">
+            <p class="ml-4 text-gray-4 text-xs lg:text-md xl:text-lg">Email</p>
+            <button class="px-5 py-3 rounded-xl bg-blue-main text-gray-6 text-xs lg:text-md xl:text-lg">
+              Join
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="m-auto py-5 text-center font-semibold text-gray-6 font-Montserrat text-xs lg:text-sm">created by <a class="font-bold underline" href="https://github.com/eggwaffle">eggwaffle</a> - devChallenges.io</p>
+    </Footer>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
